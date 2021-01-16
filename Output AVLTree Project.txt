@@ -1,0 +1,126 @@
+ant -f C:\\Users\\user\\Documents\\NetBeansProjects\\AVLTreeProject -Dnb.internal.action.name=run run
+init:
+Deleting: C:\Users\user\Documents\NetBeansProjects\AVLTreeProject\build\built-jar.properties
+deps-jar:
+Updating property file: C:\Users\user\Documents\NetBeansProjects\AVLTreeProject\build\built-jar.properties
+compile:
+run:
+
+AVLTree Operations
+1. Insert
+2. Delete
+Option: 1
+Enter Integer element to insert: 10
+
+Tree Structure : 
+(    10)
+
+Post order : 10 
+Pre order : 10 
+In order : 10 
+Do you want to continue (Type y or n): y
+
+AVLTree Operations
+1. Insert
+2. Delete
+Option: 1
+Enter Integer element to insert: 9
+
+Tree Structure : 
+    (    10)    
+    /           
+(     9)        
+
+Post order : 9 10 
+Pre order : 10 9 
+In order : 9 10 
+Do you want to continue (Type y or n): y
+
+AVLTree Operations
+1. Insert
+2. Delete
+Option: 1
+Enter Integer element to insert: 8
+
+Tree Structure : 
+    (     9)    
+    /      \    
+(     8)(    10)
+
+Post order : 8 10 9 
+Pre order : 9 8 10 
+In order : 8 9 10 
+Do you want to continue (Type y or n): y
+
+AVLTree Operations
+1. Insert
+2. Delete
+Option: 1
+Enter Integer element to insert: 7
+
+Tree Structure : 
+            (     9)            
+            /      \            
+    (     8)        (    10)    
+    /                           
+(     7)                        
+
+Post order : 7 8 10 9 
+Pre order : 9 8 7 10 
+In order : 7 8 9 10 
+Do you want to continue (Type y or n): y
+
+AVLTree Operations
+1. Insert
+2. Delete
+Option: 1
+Enter Integer element to insert: 6
+
+Tree Structure : 
+            (     9)            
+            /      \            
+    (     7)        (    10)    
+    /      \                    
+(     6)(     8)                
+
+Post order : 6 8 7 10 9 
+Pre order : 9 7 6 8 10 
+In order : 6 7 8 9 10 
+Do you want to continue (Type y or n): y
+
+AVLTree Operations
+1. Insert
+2. Delete
+Option: 1
+Enter Integer element to insert: 12
+
+Tree Structure : 
+            (     9)            
+            /      \            
+    (     7)        (    10)    
+    /      \               \    
+(     6)(     8)        (    12)
+
+Post order : 6 8 7 12 10 9 
+Pre order : 9 7 6 8 10 12 
+In order : 6 7 8 9 10 12 
+Do you want to continue (Type y or n): y
+
+AVLTree Operations
+1. Insert
+2. Delete
+Option: 2
+Value to be deleted: 12
+
+Tree Structure : 
+            (     9)            
+            /      \            
+    (     7)        (    10)    
+    /      \                    
+(     6)(     8)                
+
+Post order : 6 8 7 10 9 
+Pre order : 9 7 6 8 10 
+In order : 6 7 8 9 10 
+Do you want to continue (Type y or n): n
+BUILD SUCCESSFUL (total time: 58 seconds)
